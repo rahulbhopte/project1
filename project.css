@@ -1,0 +1,18 @@
+body{
+    color: bisque;
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 1000px;
+
+}
+.left-section{
+    grid-column: span 1;
+    background-color: black;
+}
+.right-section{
+    grid-column: span 1/span29;
+    background-color: black;
+}
